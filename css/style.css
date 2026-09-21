@@ -1,1 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    background-color: #1F2A44;
+    padding: 20px;
+    text-align: center;
+    color: #F5F1E8;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+    background-color: #F5F1E8;
+    color: #1F2A44;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #1F2A44;
+    padding: 20px;
+    text-align: center;
+    color: #F5F1E8;
+    margin-top: 24px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+article {
+        width: 100%;
+        margin-bottom: 16px;
+ }
+
+@media (min-width: 768px) {
+    article {
+        display: inline-block;
+        width :100%;
+        width: 30%;
+        Margin-right: 3%;
+        Vertical-align: top;
+    }
+}
