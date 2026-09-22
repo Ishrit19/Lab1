@@ -42,9 +42,8 @@ article {
 @media (min-width: 768px) {
     article {
         display: inline-block;
-        width :100%;
         width: 30%;
-        Margin-right: 3%;
-        Vertical-align: top;
+        margin-right: 3%;
+        vertical-align: top;
     }
 }
